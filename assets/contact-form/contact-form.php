@@ -124,7 +124,11 @@ $headers = 'From: '.$email_from."\r\n".
  
 @mail($email_to, $email_subject, $email_message, $headers);  
  ?>
-
+<script type="text/javascript">
+   document.getElementById("name-contact-1").value = '';
+       document.getElementById("email-contact-1").value = '';
+  document.getElementById("message-contact-1").value = '';
+</script>
  <div class="alert alert-success alert-dismissible wow fadeInUp" role="alert">
    <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
    Your message has been sent.
