@@ -6,7 +6,7 @@ if(isset($_POST['email'])) {
  
     // ADD YOUR EMAIL WHERE YOU WANT TO RECIEVE THE MESSAGES
  
-    $email_to = "l.castillo1989@hotmail.com";
+    $email_to = "tmo@tanyamodom.com";
  
     $email_subject = "Tanya M Odom - Contact Form";
  
