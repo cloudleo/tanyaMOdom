@@ -30,7 +30,7 @@
         <!-- JS -->
         <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
-    <body id="page-top" data-spy="scroll" data-target=".navbar">
+    <body id="page-top" data-spy="scroll" data-target=".navbar" onresize="logo">
         
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
@@ -87,16 +87,11 @@
         <header class="page-title pt-small pt-parallax" data-stellar-background-ratio="0.4" style="background: url(assets/images/shattered.gif) repeat;">
           <div class="container">
               <div class="row">
-                  <span class="subheading" style="color:white"> Global Consultant</span>
-               
-              	<img src="assets/images/tanyamodomlogo.png" style="width:100%;">
-                <img src="assets/images/img3.png" style="position: absolute;left: 65%;top: 26%;width: 29%;">
-      
+                  <span class="subheading" style="color:white"><b>Global Consultant</b></span>
+              	<img id="logo" src="assets/images/newlogo.png" style="width:100%;">
               </div>
             </div>
         </header>
-
-
 
         <!-- ========== Portfolio Single ========== -->
 
@@ -108,6 +103,8 @@
               <ul class="single-img-slider">
                 <li><img style="max-width:300px; margin-left:auto; margin-right: auto;" src="assets/images/images-1.png" alt="Tanya Odom"></li>
                 <li><img style="width:50%; margin-left:auto; margin-right: auto;" src="assets/images/images-2.png" alt="Tanya Odom group pic"></li>
+                <li><img style="width:50%; margin-left:auto; margin-right: auto;" src="assets/images/img13.png" alt="Tanya Odom group pic"></li> 
+                <li><img style="width:3 0%; margin-left:auto; margin-right: auto;" src="assets/images/img8.png" alt="Tanya Odom group pic"></li>                                 
               </ul>
             </div>
           </div><!-- / .row -->
@@ -211,9 +208,8 @@
         <section id="readings" class="container pfolio-single">
           <div class="row">
             <!-- Project Info -->
-            <title>Recommended Readings</title>
                           <header class="sec-heading">
-                <h2>Recommended Readings</h2>
+                <h2>Scholar/SME Reading</h2>
               </header>
 
             <!-- Challenge -->
@@ -301,9 +297,7 @@
                   <h2>Contact</h2>
                   <span class="subheading">Tanya M. Odom</span>
                 </header>
-                              <a  style="position:relative;left:38%;" href="mailto:sap48@georgetown.edu" class="btn btn-light btn-large wow fadeIn" data-wow-delay=".3s" data-wow-duration="1s">contact</a>
-<!-- Form Blocked For NOw
-                <form action="assets/contact-form/contact-form.php" method="POST" class="form-ajax wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">
+                <form action="https://formspree.io/sap48@georgetown.edu" method="POST" class="form-ajax wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">
 
                  
                   <div class="form-group">
@@ -329,7 +323,7 @@
           
                   <div class="ajax-message col-md-12 no-gap"></div>
 
-                </form> -->
+                </form>
 
 
               </div><!-- / .col-lg-6 -->
