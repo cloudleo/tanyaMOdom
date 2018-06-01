@@ -74,13 +74,14 @@
                 <li class="dropdown mega-fw">
                  <!--  <ul class="dropdown-menu" style="width:25%"> -->
                       <!-- Multi Page -->
-                  <a href="index.html" style="color:#d7853a; role="button" aria-haspopup="true">Home<span></span></a>                      
+                  <a href="index.html" style="color:#d7853a;" role="button" aria-haspopup="true">Home<span></span></a>                      
                         <li><a href="about.html">About</a></li>
                         <li><a href="gallery.html">Gallery</a></li>
                         <li><a href="videos.html">Videos</a></li>
-                        <li><a href="articles.html">Articles</a></li>
-                        <li><a href="community.html">The Community</a></li>
-                      </div>
+                        <li><a href="articles.html">TMO Articles</a></li>
+                        <li><a href="events.html">Events</a></li>                        
+<!--                         <li><a href="community.html">The Community</a></li>
+ -->                      </div>
                  <!--  </ul> --><!-- / .dropdown-menu -->
                 </li><!-- / Home -->
 
@@ -94,10 +95,11 @@
 
         <!-- ========== Page Title ========== -->
 
-        <header class="page-title pt-xlarge pt-parallax" data-stellar-background-ratio="0.4" style="background: #F7971E;background: -webkit-linear-gradient(to right, #FFD200, #F7971E);background: linear-gradient(to right, #FFD200, #F7971E);">
+        <header class="page-title pt-xlarge pt-parallax" data-stellar-background-ratio="0.4" style="height:100vh;background: #F7971E;background: -webkit-linear-gradient(to right, #FFD200, #F7971E);background: linear-gradient(to right, #FFD200, #F7971E);">
           <div class="container">
               <div class="row">
-                  <span class="subheading" style="color:white"><b>Global Consultant &amp; Coach</b></span>
+<!--               <img id="logo" src="assets/images/Logos/tanyaModom.png">
+ -->                  <span class="subheading" style="color:white"><b>Global Consultant &amp; Coach</b></span>
               	<img id="logo" src="assets/images/newlogo.png" style="width:100%;">
               </div>
             </div>
@@ -105,16 +107,16 @@
 
         <!-- ========== Portfolio Single ========== -->
 
-        <section class="section container pfolio-single" style="padding-top:50px; padding-bottom:50px;">
+        <section class="section container pfolio-single" style="height: 100vh;padding-top:50px; padding-bottom:50px;">
 
           <!-- Slider -->
           <div class="row ws-m">
             <div class="col-md-12">
               <ul class="single-img-slider">
-                <li><img style="max-width:300px; margin-left:auto; margin-right: auto;" src="assets/images/images-1.png" alt="Tanya Odom"></li>
-                <li><img style="width:20%; margin-left:auto; margin-right: auto;" src="assets/images/tanya.png" alt="Tanya Odom group pic"></li>
-                <li><img style="width:50%; margin-left:auto; margin-right: auto;" src="assets/images/img13.png" alt="Tanya Odom group pic"></li> 
-                <li><img style="width:30%; margin-left:auto; margin-right: auto;" src="assets/images/img8.png" alt="Tanya Odom group pic"></li>                                 
+                <li><img style="max-width:450px;min-width:300px; margin-left:auto; margin-right: auto;" src="assets/images/images-1.png" alt="Tanya Odom"></li>
+                <li><img style="max-width:450px;min-width:300px; margin-left:auto; margin-right: auto;" src="assets/images/img13.png" alt="Tanya Odom group pic"></li> 
+                <li><img style="max-width:450px;min-width:300px; margin-left:auto; margin-right: auto;" src="assets/images/tanya.png" alt="Tanya Odom group pic"></li>
+                <li><img style="max-width:450px;min-width:300px; margin-left:auto; margin-right: auto;" src="assets/images/img8.png" alt="Tanya Odom group pic"></li>
               </ul>
             </div>
           </div><!-- / .row -->
@@ -316,6 +318,7 @@
                     <textarea class="form-control" name="message" id="message-contact-1" rows="5" placeholder="Your Message"></textarea>
                     <label for="message-contact-1">Message</label>
                   </div>
+                  <input type="hidden" name="_next" value="thanks.html" />
                   <input type="hidden" name="_format" value="plain" />
                   <input type="hidden" name="_cc" value="tmo@tanyamodom.com" />
                   <input type="submit" class="btn pull-right" value="Send Message">
