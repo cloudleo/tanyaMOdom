@@ -5051,8 +5051,8 @@ fieldset[disabled] .form-control:hover {
 }
 
 .portfolio-filters .active a {
-  background: #111;
-  color: #ececec;
+  background: #d7853a;
+  color: white;
   padding: 3px 15px;
 }
 
@@ -6735,9 +6735,9 @@ fieldset[disabled] .form-control:hover {
   display: block;
   padding: 0 10px;
   margin-bottom: 5px;
-  border: 1px solid #ccc;
+  border: 1px solid #d7853a;
   font-family: "Open Sans", "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
-  color: #999;
+  color: #d7853a;
   -webkit-transition: all 0.5s;
           transition: all 0.5s;
 }
