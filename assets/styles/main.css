@@ -6307,7 +6307,7 @@ fieldset[disabled] .form-control:hover {
 -------------------------------------------------- */
 /* ---- 17.1 CTA - Link ---- */
 .cta-link {
- background: #F7971E;background: -webkit-linear-gradient(to right, #FFD200, #F7971E);background: linear-gradient(to right, #FFD200, #F7971E)
+ background: #994d00;background: -webkit-linear-gradient(to right, #1a0d00 ,#994d00);background: linear-gradient(to right, #1a0d00 ,#994d00)
 }
 
 .cta-link .bg-overlay {
