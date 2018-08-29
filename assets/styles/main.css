@@ -6666,7 +6666,7 @@ fieldset[disabled] .form-control:hover {
 .sidebar .header-widget {
   padding-bottom: 18px;
   margin-bottom: 30px;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #1a0d00;
 }
 
 .sidebar .recent-posts-widget .widget-item {
@@ -6735,15 +6735,15 @@ fieldset[disabled] .form-control:hover {
   display: block;
   padding: 0 10px;
   margin-bottom: 5px;
-  border: 1px solid #d7853a;
+  border: 1px solid #1a0d00;
   font-family: "Open Sans", "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
-  color: #d7853a;
+  color: #1a0d00;
   -webkit-transition: all 0.5s;
           transition: all 0.5s;
 }
 
 .sidebar .tags-widget .tag-list li a:hover {
-  border-color: #777;
+  border-color: #d7853a;
   color: #111;
 }
 
