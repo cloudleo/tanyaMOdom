@@ -240,7 +240,7 @@ hr {
 
 /* ---- Backgrounds ---- */
 .dark-bg {
-  background: #111;
+  background: #994d00;
 }
 
 .dark-bg h1,
@@ -2118,7 +2118,7 @@ fieldset[disabled] .form-control:hover {
 }
 
 .copyright .to-the-top {
-  color: #777;
+  color: #1a0d00;
 }
 
 .copyright .to-the-top i {
@@ -2152,7 +2152,7 @@ fieldset[disabled] .form-control:hover {
 
 .footer-social-links ul li a {
   display: block;
-  color: #ececec;
+  color: #1a0d00;
 }
 
 .footer-social-links ul li a:hover {
