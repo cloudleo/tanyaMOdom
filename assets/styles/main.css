@@ -2578,7 +2578,7 @@ fieldset[disabled] .form-control:hover {
 
 .navbar .navbar-nav li a {
   text-transform: uppercase;
-  font-size: 0.8em;
+  font-size: 1.2em;
   font-weight: 400;
   letter-spacing: 2px;
   color: #999;
